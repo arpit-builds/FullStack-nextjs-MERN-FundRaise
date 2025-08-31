@@ -6,7 +6,7 @@ Get Me a Chai is a modern crowdfunding platform for creators, enabling fans and 
 
 ## Project Video :-
 
-
+https://github.com/user-attachments/assets/ce9a1e7e-b747-4498-bf8e-0dd7663563e0
 
 ---
 
@@ -125,7 +125,7 @@ npm run dev
 ## 📦 Deployment (Production)
 
 - App is deployed on a Linux VPS using PM2, served by Nginx, with SSL via Let’s Encrypt.
-- Environment variables are set for production in `.env.local`.
+- Environment variables are set for production in `ecosystem.config.js`.
 - MongoDB Atlas is used for cloud-hosted data storage.
 - Automatic restarts and log monitoring keep the app stable.
 - SSL certificates auto-renew for continuous HTTPS.
