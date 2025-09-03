@@ -2,8 +2,6 @@
 
 Fund-Raise is a modern crowdfunding platform for creators, enabling fans and followers to support their favorite creators with small payments. The platform is built using the latest full-stack JavaScript technologies, with robust authentication, secure payments, and a scalable, production-ready deployment setup on a self-managed VPS.
 
----
-
 ## Project Video
 
 https://github.com/user-attachments/assets/ce9a1e7e-b747-4498-bf8e-0dd7663563e0
