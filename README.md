@@ -4,7 +4,7 @@ Fund-Raise is a modern crowdfunding platform for creators, enabling fans and fol
 
 ## Project Video
 
-https://github.com/user-attachments/assets/ce9a1e7e-b747-4498-bf8e-0dd7663563e0
+https://github.com/user-attachments/assets/d72b0c56-4a99-4b51-98fc-c58e7aebf4c5
 
 ---
 
