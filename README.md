@@ -110,8 +110,9 @@ npm install
    - Example entries:
      - `MONGODB_URI=...`
      - `NEXTAUTH_URL=http://localhost:3000`
-     - `RAZORPAY_ID=...`
-     - `RAZORPAY_SECRET=...`
+     - `NEXTAUTH_SECRET=...`
+     - `GITHUB_ID=...`
+     - `GITHUB_SECRET=...`
 4. **Start dev server:**
 ```bash
 npm run dev
