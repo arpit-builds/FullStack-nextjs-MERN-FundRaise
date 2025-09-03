@@ -1,10 +1,10 @@
-# Get Me a Chai – Crowdfunding Platform for Creators
+# Fund-Raise : Crowdfunding Platform for Creators
 
-Get Me a Chai is a modern crowdfunding platform for creators, enabling fans and followers to support their favorite creators with small payments (“buying a chai”). The platform is built using the latest full-stack JavaScript technologies, with robust authentication, secure payments, and a scalable, production-ready deployment setup on a self-managed VPS.
+Fund-Raise is a modern crowdfunding platform for creators, enabling fans and followers to support their favorite creators with small payments (“buying a chai”). The platform is built using the latest full-stack JavaScript technologies, with robust authentication, secure payments, and a scalable, production-ready deployment setup on a self-managed VPS.
 
 ---
 
-## Project Video :-
+## Project Video
 
 https://github.com/user-attachments/assets/ce9a1e7e-b747-4498-bf8e-0dd7663563e0
 
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/ce9a1e7e-b747-4498-bf8e-0dd7663563e0
 
 ## 🚩 Features
 
-- **Creator Profiles:** Creators can sign up, set up their profile, and receive contributions.
+- **Creator Profiles:** Creators can sign up using github, set up their profile, and receive contributions.
 - **Crowdfunding:** Supporters can send payments along with messages to creators.
 - **Payment Gateway Integration:** Secure payments via Razorpay.
 - **Authentication:** GitHub OAuth login for creators and users.
@@ -101,8 +101,8 @@ Internet → Domain (arpit-project-getmeachai.in)
 
 1. **Clone the repo:**
 ```bash
-git clone https://github.com/[yourusername]/get-me-a-chai.git
-cd get-me-a-chai
+git clone https://github.com/[yourusername]/Fund-Raise.git
+cd Fund-Raise
 ```
 2. **Install dependencies:**
 ```bash
