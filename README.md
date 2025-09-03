@@ -1,6 +1,6 @@
-# Fund-Raise : Crowdfunding Platform for Creators
+# Fund-Raise | Crowdfunding Platform for Creators
 
-Fund-Raise is a modern crowdfunding platform for creators, enabling fans and followers to support their favorite creators with small payments (“buying a chai”). The platform is built using the latest full-stack JavaScript technologies, with robust authentication, secure payments, and a scalable, production-ready deployment setup on a self-managed VPS.
+Fund-Raise is a modern crowdfunding platform for creators, enabling fans and followers to support their favorite creators with small payments. The platform is built using the latest full-stack JavaScript technologies, with robust authentication, secure payments, and a scalable, production-ready deployment setup on a self-managed VPS.
 
 ---
 
