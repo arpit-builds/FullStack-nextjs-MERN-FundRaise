@@ -6,8 +6,8 @@ export default function Home() {
     <>
       <div className="flex flex-col justify-center items-center gap-4 h-[44vh] text-white px-5 md:px-0 text-xs md:text-base">
         <div className="flex items-center justify-center">
-          <h1 className="font-bold md:text-5xl text-3xl text-center md:text-left">Get Me a Chai</h1>
-          <img className="invertImg" width={85} src="/tea.gif" alt="" />
+          <h1 className="font-bold md:text-5xl text-3xl text-center md:text-left">Fund-Raise</h1>
+          <img className="" width={85} src="/mon-e.gif" alt="" />
         </div>
         <p className="text-center md:text-left">A crowd funding platform for creators. Get funded by your fans and followers. start now!</p>
         <div>
@@ -23,7 +23,7 @@ export default function Home() {
       <div className="h-1 opacity-10 bg-white"></div>
 
       <div className="text-white container mx-auto pb-32 pt-14 px-10">
-        <h2 className="text-3xl font-bold text-center mb-14">Your fans can buy you a chai</h2>
+        <h2 className="text-3xl font-bold text-center mb-14">Your fans can support you through funds</h2>
         <div className="flex gap-5 justify-around">
           <div className="item flex flex-col items-center justify-center space-y-3">
             <img className="bg-slate-400 rounded-full p-2" width={88} src="/man.gif" alt="" />

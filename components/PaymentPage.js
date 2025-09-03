@@ -23,9 +23,6 @@ const PaymentPage = ({ username }) => {
 
   useEffect(() => {
     getData()
-  }, [])
-
-  useEffect(() => {
     if (searchParams.get("paymentdone") == "true") {
       toast.info('Thanks for your donation!', {
         position: "top-right",
@@ -107,7 +104,7 @@ const PaymentPage = ({ username }) => {
           @{currentUser.name}
         </div>
         <div className="text-slate-400">
-          Let&apos;s help {currentUser.name} to get a Chai
+          Let&apos;s help {currentUser.name} to get some funds
         </div>
         <div className='text-slate-400'>
           {payments.length} payments . ₹{payments.reduce((acc, item) => acc + item.amount, 0)} raised
@@ -133,13 +130,13 @@ const PaymentPage = ({ username }) => {
               {/* input for name and message */}
               <input onChange={handleChange} name='name' value={paymentform.name} type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Name' />
               <input onChange={handleChange} name='message' value={paymentform.message} type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Message' />
-              <input onChange={handleChange} name='amount' value={paymentform.amount} type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Ammount' />
-              <button onClick={() => pay(paymentform.amount * 100)} type="button" className="text-white bg-gradient-to-br from-purple-900 to-blue-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium disabled:from-purple-100 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" disabled={paymentform.name?.length < 2 || paymentform.message?.length < 4 || paymentform.amount?.length < 1 }>Pay</button>
+              <input onChange={handleChange} name='amount' value={paymentform.amount} type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Amount' />
+              <button onClick={() => pay(Number(paymentform.amount) * 100)} type="button" className="text-white bg-gradient-to-br from-purple-900 to-blue-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium disabled:from-purple-100 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" disabled={paymentform.name?.length == 0 || paymentform.message?.length == 0 || paymentform.amount?.length == 0 || isNaN(Number(paymentform.amount)) }>Pay</button>
             </div>
             <div className="flex md:flex-row flex-col gap-2 mt-5">
-              <button className="bg-slate-800 p-3 rounded-lg" onClick={() => pay(1000)}>Pay ₹10</button>
-              <button className="bg-slate-800 p-3 rounded-lg" onClick={() => pay(2000)}>Pay ₹20</button>
-              <button className="bg-slate-800 p-3 rounded-lg" onClick={() => pay(3000)}>Pay ₹30</button>
+              <button className="bg-slate-800 disabled:bg-slate-700 p-3 rounded-lg" onClick={() => pay(1000)} disabled={paymentform.name?.length == 0 || paymentform.message?.length == 0}>Pay ₹10</button>
+              <button className="bg-slate-800 disabled:bg-slate-700 p-3 rounded-lg" onClick={() => pay(2000)} disabled={paymentform.name?.length == 0 || paymentform.message?.length == 0}>Pay ₹20</button>
+              <button className="bg-slate-800 disabled:bg-slate-700 p-3 rounded-lg" onClick={() => pay(3000)} disabled={paymentform.name?.length == 0 || paymentform.message?.length == 0}>Pay ₹30</button>
             </div>
           </div>
         </div>

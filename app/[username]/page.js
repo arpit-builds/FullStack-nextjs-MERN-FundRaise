@@ -21,6 +21,6 @@ export default page
 
 export async function generateMetadata({ params }) {
   return {
-    title: `Support ${params.username} - Get Me a Chai`,
+    title: `Support ${params.username} | Fund-Raise`,
   }
 }

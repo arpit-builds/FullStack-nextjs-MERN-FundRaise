@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
     return (
         <div className="container mx-auto px-8 md:px-4 py-8">
-            <h1 className="text-3xl font-semibold mb-4">About Get Me a Chai</h1>
+            <h1 className="text-3xl font-semibold mb-4">About Fund-Raise</h1>
             <p className="text-lg mb-6">
-                Get Me a Chai is a crowdfunding platform designed for creators to fund their projects with the support of their fans. It&apos;s a space where your fans can directly contribute to your creative endeavors by buying you a chai. Unlock the potential of your fanbase and bring your projects to life.
+                Fund-Raise is a crowdfunding platform designed for creators to fund their projects with the support of their fans. It&apos;s a space where your fans can directly contribute to your creative endeavors by buying you a chai. Unlock the potential of your fanbase and bring your projects to life.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4">How It Works</h2>
@@ -20,7 +20,7 @@ const About = () => {
                 <div className="flex items-center mb-6">
                     <img className="w-20 h-20 rounded-full mr-4" src="/coin.gif" alt="Support Through Chai" />
                     <div>
-                        <h3 className="text-xl font-semibold mb-2">Support Through Chai</h3>
+                        <h3 className="text-xl font-semibold mb-2">Support Through Funds</h3>
                         <p>Receive support from your fans in the form of chai purchases, directly contributing to your project funding.</p>
                     </div>
                 </div>
@@ -91,6 +91,6 @@ const About = () => {
 export default About;
 
 export const metadata = {
-    title: "About - Get Me A Chai",
+    title: "About | Fund-Raise",
 }
    
